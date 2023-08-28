@@ -1,0 +1,4 @@
+config.sh
+src
+.vagrant
+.DS_Store
