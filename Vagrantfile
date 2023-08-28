@@ -11,8 +11,8 @@ Vagrant.configure("2") do |config|
     Dir.mkdir(SYNCED_DIR)
   end
 
-  # https://github.com/hashicorp/vagrant/issues/9567 
-  config.vm.synced_folder SYNCED_DIR, "/#{SYNCED_DIR}", smb_username: "chaehan-um"
+  # Synced Folder
+  config.vm.synced_folder SYNCED_DIR, "/#{SYNCED_DIR}", type: "smb"
 
   config.vm.provision :shell, path: "bootstrap.sh"
 end
