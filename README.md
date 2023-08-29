@@ -1,7 +1,7 @@
 # Overview
 This project is vagrant script for terraform playground. It is developed on the Mac M1/M2 and uses QEMU as Provider.
 
-**Prerequsite**
+**Prerequisite**
 * Enable File Sharing([doc](https://developer.hashicorp.com/vagrant/docs/synced-folders/smb))
 * Installing QEMU
 # How to run?
